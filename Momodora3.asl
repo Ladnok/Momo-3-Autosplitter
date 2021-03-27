@@ -37,9 +37,6 @@ state("Momodora3", "v1.11b")
 startup
 {
 
-	refreshRate = 60;
-
-
 	settings.Add("zones", true, "Zones");
 
 	settings.Add("shrine", true, "Ishlith Shrine", "zones");
@@ -67,6 +64,10 @@ startup
 
 init
 {
+
+	refreshRate = 60;
+	
+
 	print("[LSS - Checksum] » init{} - starting checksum calculation");
 
 	ProcessModuleWow64Safe module = modules.Single(x => String.Equals(x.ModuleName, "Momodora3.exe", StringComparison.OrdinalIgnoreCase));
@@ -103,6 +104,7 @@ init
 			
     	}
 
+	//Variables
 
 	// HashSet to hold splits already hit
 	// It prevents Livesplit from splitting on the same split multiple times
