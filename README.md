@@ -2,7 +2,9 @@
 Autosplitter using the ASL language for the game Momodora 3
 
 Features:
--Start
--Split
--Stop
--Reset
+- Start
+- Split
+- Stop
+- Reset
+
+In this repository there's also 2 CE tables with lots of information including, health, picked up items bosses, etc.
