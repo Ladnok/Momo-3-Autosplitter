@@ -7,4 +7,4 @@ Features:
 - Stop
 - Reset
 
-In this repository there's also 2 CE tables with lots of information including, health, picked up items bosses, etc.
+In this repository there're also 2 CE tables with lots of information including, health, picked up items bosses, etc.
