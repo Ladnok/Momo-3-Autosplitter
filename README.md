@@ -5,6 +5,7 @@ Features:
 - Automatically tracks the start, end, and reset to runs.
 - Split customization. Perform splits on boss kills and/or zone transitions
 - Load removal
+- Supports versions 1.06, 1.11b and 1.12
 
 Preferably load the autosplitter from LiveSplit itsleft following this steps:
 1. Right click on LiveSplit->Edit Splits...
