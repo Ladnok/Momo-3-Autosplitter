@@ -34,6 +34,24 @@ state("Momodora3", "v1.11b")
 }
 
 
+state("Momodora3", "v1.12")
+{
+
+	double loadSave:	0x18D4CC, 0x1E4,  0x104, 0x8, 0x104, 0x4,  0xE0;
+
+	double screen:		0x189570, 0x274, 0x2ec, 0xc, 0x0, 0x8;
+
+	double cutscene:	0x189EDC, 0x4, 0xB4, 0x4, 0xC, 0x1168;
+
+	double percentage:	0x189EDC, 0x4, 0xB4, 0x4, 0xC, 0x1C80;
+
+	double Haegok:		0x189EDC, 0x4, 0xB4, 0x4, 0xC, 0x1D48;
+
+	double InGame:		0x189EDC, 0x4, 0xB4, 0x4, 0xC, 0x1E38;
+	double InGame2:		0x189EDC, 0x4, 0xB4, 0x4, 0xC, 0x1F50;
+}
+
+
 startup
 {
 
@@ -77,9 +95,11 @@ init
 
 	using (var sha = System.Security.Cryptography.SHA512.Create())
 	{
+
 		using (var s = File.Open(module.FileName, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
 		{
-		exe512HashBytes = sha.ComputeHash(s); 
+
+			exe512HashBytes = sha.ComputeHash(s); 
 		} 
 	}
 
@@ -88,23 +108,27 @@ init
 	print("[LSS - Checksum] » init{} - read SHA512-Hash: " + exeHash); // printing our SHA512 checksum
 
 	switch(exeHash) {
+
         	case "4FE144C295682E4D2F82E20EA388B3FFF9653C8AEC8A006E06ED20EC8E59AFFEDB86F75BEFD9FE09A9F47FCDEDF415FAEA723F78440C03F403A1F5159DF618E9":
-            		print("Version 1.06");
-			version = "v1.06";
+            	print("Version 1.06");
+				version = "v1.06";
            	 	break;
 
         	case "1BDC4C10D23F00300EBAFB519CC44C3F650829A17BC23977D3207A25BB6C97F02F1D8AB62EF890393DF5C1867BFA4C051245B50B5C949F61E149FF02DE630F0C":
-            		print("Version 1.11b");
-			version = "v1.11b";
+            	print("Version 1.11b");
+				version = "v1.11b";
            	 	break;
 
-		default:
-			vars.version = "v1.06";
-            		break;
-			
+        	case "71131855F183BC42AC6E028AEB6D8E76D192AF68E448F9944004853606B0D74DA9E00E690B7DDD31E2D3287B9CD4C160A9FEEB5266D5E6608FFA698F5C55B65C":
+            	print("Version 1.12");
+				version = "v1.12";
+           	 	break;
+
+			default:
+				vars.version = "version not supported";
+            	break;
     	}
 
-	//Variables
 
 	// HashSet to hold splits already hit
 	// It prevents Livesplit from splitting on the same split multiple times
@@ -129,11 +153,13 @@ update
 
 	if (old.screen != -1)
 	{
+
 		vars.last_screen = old.screen;
 	}
 
 	if (current.screen == 112 && old.percentage < current.percentage)
 	{
+
 		vars.wait_rell_talk = 1;
 		return false;
 	}
@@ -142,6 +168,7 @@ update
 	// Clear any hit splits if timer stops
 	if (timer.CurrentPhase == TimerPhase.NotRunning)
 	{
+
 		vars.Splits.Clear();
 	}
 }
@@ -164,90 +191,94 @@ reset
 split
 {
 	//Zone Splits
-	if (vars.last_screen == 64 && current.screen == 57)
+	if (old.screen != current.screen)
 	{
 
-		if (vars.Splits.Contains("Shrine"))
+		if (current.screen == 57 && vars.last_screen == 64)
 		{
 
-			return false;
-		}
-
-		vars.Splits.Add("Shrine");
-		return settings["shrine"];
-	}
-
-
-	if (vars.last_screen == 121 && current.screen == 67)
-	{
-
-		if (vars.Splits.Contains("Madryn"))
-		{
-
-			return false;
-		}
-
-		vars.Splits.Add("Madryn");
-		return settings["madryn"];
-	}
-
-
-	if (vars.last_screen == 106 && current.screen == 79)
-	{
-
-		if (vars.Splits.Contains("Hideout"))
-		{
-
-			return false;
-		}
-
-		vars.Splits.Add("Hideout");
-		return settings["hideout"];
-	}
-
-
-	if (vars.last_screen == 85 && current.screen == 114)
-	{
-
-		if (vars.Splits.Contains("Garden"))
-		{
-
-			return false;
-		}
-
-		vars.Splits.Add("Garden");
-		return settings["garden"];
-	}
-
-
-	if (vars.last_screen == 100 && current.Haegok == 1)
-	{
-
-		if (current.screen == 47 || current.screen == 57 || current.screen == 67 || current.screen == 79 || current.screen == 114)
-		{
-			if (vars.Splits.Contains("Distortion"))
+			if (vars.Splits.Contains("Shrine"))
 			{
 
 				return false;
 			}
 
-			vars.Splits.Add("Distortion");
-			return settings["distortion"];
+			vars.Splits.Add("Shrine");
+			return settings["shrine"];
 		}
-	}
 
 
-	if (vars.last_screen == 116 && current.screen == 93)
-	{
-
-		if (vars.Splits.Contains("Grave"))
+		if (current.screen == 67 && vars.last_screen == 121)
 		{
 
-			return false;
+			if (vars.Splits.Contains("Madryn"))
+			{
+
+				return false;
+			}
+
+			vars.Splits.Add("Madryn");
+			return settings["madryn"];
 		}
 
-		vars.Splits.Add("Grave");
-		return settings["grave"];
+
+		if (current.screen == 79 && vars.last_screen == 106)
+		{
+
+			if (vars.Splits.Contains("Hideout"))
+			{
+
+				return false;
+			}
+
+			vars.Splits.Add("Hideout");
+			return settings["hideout"];
+		}
+
+
+		if (current.screen == 114 && vars.last_screen == 85)
+		{
+
+			if (vars.Splits.Contains("Garden"))
+			{
+
+				return false;
+			}
+
+			vars.Splits.Add("Garden");
+			return settings["garden"];
+		}
+
+
+		if (vars.last_screen == 100 && current.Haegok == 1)
+		{
+
+			if (current.screen == 47 || current.screen == 57 || current.screen == 67 || current.screen == 79 || current.screen == 114)
+			{
+				if (vars.Splits.Contains("Distortion"))
+				{
+
+					return false;
+				}
+
+				vars.Splits.Add("Distortion");
+				return settings["distortion"];
+			}
+		}
+
+
+		if (current.screen == 93 && vars.last_screen == 116)
+		{
+
+			if (vars.Splits.Contains("Grave"))
+			{
+
+				return false;
+			}
+
+			vars.Splits.Add("Grave");
+			return settings["grave"];
+		}
 	}
 
 
