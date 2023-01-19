@@ -69,8 +69,6 @@ startup {
 }
 
 init {
-	
-	print("[LSS - Checksum] » init{} - starting checksum calculation");//----------------------------------------------------------------------------------------------------------------------------------------
 
 	ProcessModuleWow64Safe module = modules.Single(x => String.Equals(x.ModuleName, "Momodora3.exe", StringComparison.OrdinalIgnoreCase));
 
@@ -83,21 +81,16 @@ init {
 
 	string exeHash = exe512HashBytes.Select(x => x.ToString("X2")).Aggregate((a, b) => a + b); // execute the exe512HashBytes function and storing the hash in the hexadecimal (uppercased) variant
 
-	print("[LSS - Checksum] » init{} - read SHA512-Hash: " + exeHash); // printing our SHA512 checksum-----------------------------------------------------------------------------------------------------------
-
 	switch(exeHash) {
 		case "4FE144C295682E4D2F82E20EA388B3FFF9653C8AEC8A006E06ED20EC8E59AFFEDB86F75BEFD9FE09A9F47FCDEDF415FAEA723F78440C03F403A1F5159DF618E9":
-			print("Version 1.06");//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 			version = "v1.06";
 			break;
 
 		case "1BDC4C10D23F00300EBAFB519CC44C3F650829A17BC23977D3207A25BB6C97F02F1D8AB62EF890393DF5C1867BFA4C051245B50B5C949F61E149FF02DE630F0C":
-			print("Version 1.11b");//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 			version = "v1.11b";
 			break;
 
 		case "71131855F183BC42AC6E028AEB6D8E76D192AF68E448F9944004853606B0D74DA9E00E690B7DDD31E2D3287B9CD4C160A9FEEB5266D5E6608FFA698F5C55B65C":
-			print("Version 1.12");//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 			version = "v1.12";
 			break;
 
