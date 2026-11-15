@@ -1,8 +1,7 @@
 state("Momodora3", "v1.06") {
-
 	double loadSave:	0x2D3054, 0x370, 0xE00;
 
-	double screen:		0x1890F0, 0x7C, 0x10, 0xC, 0xF78;
+	double screen:		0x18D3D4, 0x8EC, 0x8, 0x2C, 0x8F8;
 
 	double cutscene:	0x189EDC, 0x4, 0xB4, 0x4, 0xC, 0x1118;
 
@@ -15,10 +14,9 @@ state("Momodora3", "v1.06") {
 }
 
 state("Momodora3", "v1.11b") {
-
 	double loadSave:	0x18D4CC, 0x1E4,  0x104, 0x8, 0x104, 0x4,  0x128;
 
-	double screen:		0x1890F0, 0x7C, 0x10, 0xC, 0xF78;
+	double screen:		0x18D3D4, 0x8EC, 0x8, 0x2C, 0x8F8;
 
 	double cutscene:	0x189EDC, 0x4, 0xB4, 0x4, 0xC, 0x1168;
 
@@ -31,10 +29,9 @@ state("Momodora3", "v1.11b") {
 }
 
 state("Momodora3", "v1.12") {
-
 	double loadSave:	0x18D4CC, 0x1E4,  0x104, 0x8, 0x104, 0x4,  0xE0;
 
-	double screen:		0x1890F0, 0x7C, 0x10, 0xC, 0xF78;
+	double screen:		0x18D3D4, 0x8EC, 0x8, 0x2C, 0x8F8;
 
 	double cutscene:	0x189EDC, 0x4, 0xB4, 0x4, 0xC, 0x1168;
 
@@ -47,7 +44,6 @@ state("Momodora3", "v1.12") {
 }
 
 startup {
-
 	settings.Add("zones", true, "Zones");
 		settings.Add("shrine", true, "Ishlith Shrine", "zones");
 		settings.Add("madryn", true, "Old Madryn", "zones");
@@ -69,7 +65,6 @@ startup {
 }
 
 init {
-
 	ProcessModuleWow64Safe module = modules.Single(x => String.Equals(x.ModuleName, "Momodora3.exe", StringComparison.OrdinalIgnoreCase));
 
 	// initialising the cryptography factory (we're using SHA512 in this case. MD5 would work aswell but SHA's considered the better option for checksums)
@@ -118,12 +113,10 @@ init {
 }
 
 isLoading {
-
 	return (timer.CurrentAttemptDuration.Seconds > 5 && current.screen == -1);
 }
 
 update {
-
 	// Update last_screen when we are not in a screen transition
 	if (old.screen != -1)
 		vars.last_screen = old.screen;
@@ -142,17 +135,14 @@ update {
 }
 
 start {
-
 	return (old.loadSave == 0 && current.loadSave == 1);
 }
 
 reset {
-
     return ((old.InGame == 1 && current.InGame == 0) || (old.InGame2 == 1 && current.InGame2 == 0));
 }
 
 split {
-
 	// Zone Splits
 	if (old.screen != current.screen) {
 		foreach (var zone in vars.Zones) {

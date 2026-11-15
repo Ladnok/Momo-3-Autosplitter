@@ -1,0 +1,4248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="52">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>234</ID>
+      <Description>"1.06"</Description>
+      <Options moDefaultCollapsed="1" moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>22</ID>
+          <Description>"GameInfo"</Description>
+          <Options moDefaultCollapsed="1" moManualExpandCollapse="1"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>212</ID>
+              <Description>"MainMenu"</Description>
+              <Options moDefaultCollapsed="1" moManualExpandCollapse="1"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>232</ID>
+                  <Description>"Difficulty"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Hard
+1:Easy
+*:Undefined
+</DropDownList>
+                  <VariableType>Double</VariableType>
+                  <Address>"Momodora3.exe"+002D3054</Address>
+                  <Offsets>
+                    <Offset>DD8</Offset>
+                    <Offset>370</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>233</ID>
+                  <Description>"LoadSavefile"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Preparing Savefile
+1:Loading
+*:Undefined
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"Momodora3.exe"+002D3054</Address>
+                  <Offsets>
+                    <Offset>E00</Offset>
+                    <Offset>370</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>421</ID>
+              <Description>"Room"</Description>
+              <VariableType>Double</VariableType>
+              <Address>"Momodora3.exe"+0018D3D4</Address>
+              <Offsets>
+                <Offset>8F8</Offset>
+                <Offset>2C</Offset>
+                <Offset>8</Offset>
+                <Offset>8EC</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>20</ID>
+              <Description>"Percentage"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"momodora3.exe"+189EDC</Address>
+              <Offsets>
+                <Offset>1C30</Offset>
+                <Offset>C</Offset>
+                <Offset>4</Offset>
+                <Offset>B4</Offset>
+                <Offset>4</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2</ID>
+              <Description>"InGame"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"momodora3.exe"+189EDC</Address>
+              <Offsets>
+                <Offset>1E38</Offset>
+                <Offset>C</Offset>
+                <Offset>4</Offset>
+                <Offset>B4</Offset>
+                <Offset>4</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>218</ID>
+              <Description>"InGame2"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"momodora3.exe"+189EDC</Address>
+              <Offsets>
+                <Offset>1F00</Offset>
+                <Offset>C</Offset>
+                <Offset>4</Offset>
+                <Offset>B4</Offset>
+                <Offset>4</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>15</ID>
+              <Description>"IGT"</Description>
+              <Options moDefaultCollapsed="1" moManualExpandCollapse="1"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>12</ID>
+                  <Description>"Hours"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>6F0</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>10</ID>
+                  <Description>"Minutes"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>6C8</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>8</ID>
+                  <Description>"Seconds"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>6A0</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>14</ID>
+                  <Description>"FrameForCurrentSecond"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>718</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>35</ID>
+              <Description>"Bosses"</Description>
+              <Options moDefaultCollapsed="1" moManualExpandCollapse="1"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>104</ID>
+                  <Description>"Prim"</Description>
+                  <Options moDefaultCollapsed="1" moManualExpandCollapse="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>101</ID>
+                      <Description>"Fought"</Description>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"momodora3.exe"+189EDC</Address>
+                      <Offsets>
+                        <Offset>1988</Offset>
+                        <Offset>C</Offset>
+                        <Offset>4</Offset>
+                        <Offset>B4</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>103</ID>
+                      <Description>"Health"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+002C73C4</Address>
+                      <Offsets>
+                        <Offset>60</Offset>
+                        <Offset>4</Offset>
+                        <Offset>104</Offset>
+                        <Offset>0</Offset>
+                        <Offset>308</Offset>
+                        <Offset>78</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>126</ID>
+                  <Description>"Fishgod Peishe"</Description>
+                  <Options moDefaultCollapsed="1" moManualExpandCollapse="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>127</ID>
+                      <Description>"Fought"</Description>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"momodora3.exe"+189EDC</Address>
+                      <Offsets>
+                        <Offset>19B0</Offset>
+                        <Offset>C</Offset>
+                        <Offset>4</Offset>
+                        <Offset>B4</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>222</ID>
+                      <Description>"Health"</Description>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+002C73C4</Address>
+                      <Offsets>
+                        <Offset>60</Offset>
+                        <Offset>4</Offset>
+                        <Offset>104</Offset>
+                        <Offset>0</Offset>
+                        <Offset>78</Offset>
+                        <Offset>80</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>148</ID>
+                  <Description>"Knight"</Description>
+                  <Options moDefaultCollapsed="1" moManualExpandCollapse="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>152</ID>
+                      <Description>"Fought"</Description>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"momodora3.exe"+189EDC</Address>
+                      <Offsets>
+                        <Offset>1D70</Offset>
+                        <Offset>C</Offset>
+                        <Offset>4</Offset>
+                        <Offset>B4</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>147</ID>
+                      <Description>"Health"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+002C73C4</Address>
+                      <Offsets>
+                        <Offset>358</Offset>
+                        <Offset>4</Offset>
+                        <Offset>104</Offset>
+                        <Offset>0</Offset>
+                        <Offset>78</Offset>
+                        <Offset>80</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>155</ID>
+                  <Description>"Arabella Sisters"</Description>
+                  <Options moDefaultCollapsed="1" moManualExpandCollapse="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>164</ID>
+                      <Description>"Fought"</Description>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"momodora3.exe"+189EDC</Address>
+                      <Offsets>
+                        <Offset>1A00</Offset>
+                        <Offset>C</Offset>
+                        <Offset>4</Offset>
+                        <Offset>B4</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>223</ID>
+                      <Description>"Health"</Description>
+                      <Options moDefaultCollapsed="1" moRecursiveSetValue="1" moManualExpandCollapse="1"/>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+002C73C4</Address>
+                      <Offsets>
+                        <Offset>B0</Offset>
+                        <Offset>4</Offset>
+                        <Offset>404</Offset>
+                        <Offset>18</Offset>
+                        <Offset>24</Offset>
+                        <Offset>78</Offset>
+                      </Offsets>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>204</ID>
+                          <Description>"HealthRightSis"</Description>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>Double</VariableType>
+                          <Address>"Momodora3.exe"+002C73C4</Address>
+                          <Offsets>
+                            <Offset>38</Offset>
+                            <Offset>4</Offset>
+                            <Offset>104</Offset>
+                            <Offset>0</Offset>
+                            <Offset>6E0</Offset>
+                            <Offset>78</Offset>
+                          </Offsets>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>221</ID>
+                          <Description>"HealthLeftSis"</Description>
+                          <VariableType>Double</VariableType>
+                          <Address>"Momodora3.exe"+002C73C4</Address>
+                          <Offsets>
+                            <Offset>38</Offset>
+                            <Offset>4</Offset>
+                            <Offset>104</Offset>
+                            <Offset>0</Offset>
+                            <Offset>6E4</Offset>
+                            <Offset>78</Offset>
+                          </Offsets>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>168</ID>
+                  <Description>"Bellkeeper Poetelia"</Description>
+                  <Options moDefaultCollapsed="1" moManualExpandCollapse="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>169</ID>
+                      <Description>"Fought"</Description>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"momodora3.exe"+189EDC</Address>
+                      <Offsets>
+                        <Offset>1A28</Offset>
+                        <Offset>C</Offset>
+                        <Offset>4</Offset>
+                        <Offset>B4</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>207</ID>
+                      <Description>"Health"</Description>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+002C73C4</Address>
+                      <Offsets>
+                        <Offset>38</Offset>
+                        <Offset>4</Offset>
+                        <Offset>104</Offset>
+                        <Offset>0</Offset>
+                        <Offset>640</Offset>
+                        <Offset>78</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>174</ID>
+                  <Description>"Bakrog Demon"</Description>
+                  <Options moDefaultCollapsed="1" moManualExpandCollapse="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>175</ID>
+                      <Description>"Fought"</Description>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"momodora3.exe"+189EDC</Address>
+                      <Offsets>
+                        <Offset>19D8</Offset>
+                        <Offset>C</Offset>
+                        <Offset>4</Offset>
+                        <Offset>B4</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>173</ID>
+                      <Description>"Health"</Description>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+002C73C4</Address>
+                      <Offsets>
+                        <Offset>2B8</Offset>
+                        <Offset>4</Offset>
+                        <Offset>104</Offset>
+                        <Offset>0</Offset>
+                        <Offset>5F4</Offset>
+                        <Offset>78</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>182</ID>
+                  <Description>"Haegok"</Description>
+                  <Options moDefaultCollapsed="1" moManualExpandCollapse="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>184</ID>
+                      <Description>"Fought"</Description>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"momodora3.exe"+189EDC</Address>
+                      <Offsets>
+                        <Offset>1CF8</Offset>
+                        <Offset>C</Offset>
+                        <Offset>4</Offset>
+                        <Offset>B4</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>181</ID>
+                      <Description>"Health"</Description>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+002C73C4</Address>
+                      <Offsets>
+                        <Offset>3F8</Offset>
+                        <Offset>4</Offset>
+                        <Offset>104</Offset>
+                        <Offset>0</Offset>
+                        <Offset>860</Offset>
+                        <Offset>78</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>186</ID>
+                  <Description>"Cashias"</Description>
+                  <Options moDefaultCollapsed="1" moManualExpandCollapse="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>193</ID>
+                      <Description>"Fought"</Description>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"momodora3.exe"+189EDC</Address>
+                      <Offsets>
+                        <Offset>1DC0</Offset>
+                        <Offset>C</Offset>
+                        <Offset>4</Offset>
+                        <Offset>B4</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>226</ID>
+                      <Description>"Health"</Description>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+001892D0</Address>
+                      <Offsets>
+                        <Offset>330</Offset>
+                        <Offset>4</Offset>
+                        <Offset>284</Offset>
+                        <Offset>B4</Offset>
+                        <Offset>8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>192</ID>
+                  <Description>"Godess of Death"</Description>
+                  <Options moDefaultCollapsed="1" moManualExpandCollapse="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>195</ID>
+                      <Description>"HealthF1"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+002C73C4</Address>
+                      <Offsets>
+                        <Offset>38</Offset>
+                        <Offset>4</Offset>
+                        <Offset>104</Offset>
+                        <Offset>0</Offset>
+                        <Offset>7D8</Offset>
+                        <Offset>80</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>198</ID>
+                      <Description>"HealthF2"</Description>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+002C73C4</Address>
+                      <Offsets>
+                        <Offset>38</Offset>
+                        <Offset>4</Offset>
+                        <Offset>104</Offset>
+                        <Offset>0</Offset>
+                        <Offset>864</Offset>
+                        <Offset>78</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>201</ID>
+                      <Description>"HealthF3"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+002C73C4</Address>
+                      <Offsets>
+                        <Offset>290</Offset>
+                        <Offset>4</Offset>
+                        <Offset>104</Offset>
+                        <Offset>0</Offset>
+                        <Offset>884</Offset>
+                        <Offset>80</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>107</ID>
+              <Description>"Events"</Description>
+              <Options moDefaultCollapsed="1" moManualExpandCollapse="1"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>121</ID>
+                  <Description>"InitialCS"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>11B8</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>72</ID>
+                  <Description>"PlantedKarstianSeed"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1C58</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>179</ID>
+                  <Description>"KahoCS"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1CD0</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>23</ID>
+          <Description>"PlayerInfo"</Description>
+          <Options moDefaultCollapsed="1" moManualExpandCollapse="1"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>99</ID>
+              <Description>"Coord"</Description>
+              <Options moDefaultCollapsed="1" moManualExpandCollapse="1"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>97</ID>
+                  <Description>"XPos"</Description>
+                  <VariableType>Double</VariableType>
+                  <Address>"Momodora3.exe"+002C73C4</Address>
+                  <Offsets>
+                    <Offset>50</Offset>
+                    <Offset>0</Offset>
+                    <Offset>20</Offset>
+                    <Offset>80</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>98</ID>
+                  <Description>"YPos"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"Momodora3.exe"+002C73C4</Address>
+                  <Offsets>
+                    <Offset>58</Offset>
+                    <Offset>0</Offset>
+                    <Offset>20</Offset>
+                    <Offset>80</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>85</ID>
+              <Description>"MaxHealth(Increments of 4)"</Description>
+              <Options moDefaultCollapsed="1" moRecursiveSetValue="1" moManualExpandCollapse="1"/>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:0
+4:4
+8:8
+12:12
+16:16
+20:20
+24:24
+28:28
+32:32
+36:36
+40:40
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"momodora3.exe"+189EDC</Address>
+              <Offsets>
+                <Offset>420</Offset>
+                <Offset>C</Offset>
+                <Offset>4</Offset>
+                <Offset>B4</Offset>
+                <Offset>4</Offset>
+              </Offsets>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>1</ID>
+                  <Description>"Health"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>3F8</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                  <Hotkeys>
+                    <Hotkey>
+                      <Action>Set Value</Action>
+                      <Keys>
+                        <Key>111</Key>
+                      </Keys>
+                      <Value>0</Value>
+                      <ID>0</ID>
+                    </Hotkey>
+                    <Hotkey>
+                      <Action>Decrease Value</Action>
+                      <Keys>
+                        <Key>75</Key>
+                      </Keys>
+                      <Value>4</Value>
+                      <ID>1</ID>
+                    </Hotkey>
+                    <Hotkey>
+                      <Action>Increase Value</Action>
+                      <Keys>
+                        <Key>76</Key>
+                      </Keys>
+                      <Value>4</Value>
+                      <ID>2</ID>
+                    </Hotkey>
+                  </Hotkeys>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>50</ID>
+              <Description>"Munny"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"momodora3.exe"+189EDC</Address>
+              <Offsets>
+                <Offset>880</Offset>
+                <Offset>C</Offset>
+                <Offset>4</Offset>
+                <Offset>B4</Offset>
+                <Offset>4</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>109</ID>
+              <Description>"Character(RequiresReloadingOrWarping)"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Momo
+1:Dora
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"momodora3.exe"+189EDC</Address>
+              <Offsets>
+                <Offset>1258</Offset>
+                <Offset>C</Offset>
+                <Offset>4</Offset>
+                <Offset>B4</Offset>
+                <Offset>4</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>90</ID>
+              <Description>"Invincibility"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
+1:Enabled
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"Momodora3.exe"+002C73C4</Address>
+              <Offsets>
+                <Offset>2E0</Offset>
+                <Offset>4</Offset>
+                <Offset>104</Offset>
+                <Offset>0</Offset>
+                <Offset>20</Offset>
+                <Offset>78</Offset>
+              </Offsets>
+              <Hotkeys>
+                <Hotkey>
+                  <Action>Set Value</Action>
+                  <Keys>
+                    <Key>73</Key>
+                  </Keys>
+                  <Value>1</Value>
+                  <ID>0</ID>
+                </Hotkey>
+                <Hotkey>
+                  <Action>Activate</Action>
+                  <Keys>
+                    <Key>73</Key>
+                  </Keys>
+                  <ID>2</ID>
+                </Hotkey>
+                <Hotkey>
+                  <Action>Set Value</Action>
+                  <Keys>
+                    <Key>79</Key>
+                  </Keys>
+                  <Value>0</Value>
+                  <ID>1</ID>
+                </Hotkey>
+                <Hotkey>
+                  <Action>Deactivate</Action>
+                  <Keys>
+                    <Key>79</Key>
+                  </Keys>
+                  <ID>3</ID>
+                </Hotkey>
+              </Hotkeys>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>209</ID>
+              <Description>"Charged attack (20-100: MidCharge) (100+: Full charge)"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Charged
+50:Mid Charge
+101:Fully Charged
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"Momodora3.exe"+002C73C4</Address>
+              <Offsets>
+                <Offset>380</Offset>
+                <Offset>4</Offset>
+                <Offset>104</Offset>
+                <Offset>0</Offset>
+                <Offset>20</Offset>
+                <Offset>78</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>144</ID>
+              <Description>"BunnyForm"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
+1:Enabled
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"Momodora3.exe"+002C73C4</Address>
+              <Offsets>
+                <Offset>628</Offset>
+                <Offset>4</Offset>
+                <Offset>104</Offset>
+                <Offset>0</Offset>
+                <Offset>20</Offset>
+                <Offset>78</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>166</ID>
+              <Description>"EnemiesKilled"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"momodora3.exe"+189EDC</Address>
+              <Offsets>
+                <Offset>17F8</Offset>
+                <Offset>C</Offset>
+                <Offset>4</Offset>
+                <Offset>B4</Offset>
+                <Offset>4</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>123</ID>
+              <Description>"WarpAbility"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
+1:Enabled
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"momodora3.exe"+189EDC</Address>
+              <Offsets>
+                <Offset>1640</Offset>
+                <Offset>C</Offset>
+                <Offset>4</Offset>
+                <Offset>B4</Offset>
+                <Offset>4</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>110</ID>
+              <Description>"Warps"</Description>
+              <Options moDefaultCollapsed="1" moRecursiveSetValue="1" moManualExpandCollapse="1"/>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disable All
+1:Enable All
+</DropDownList>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>124</ID>
+                  <Description>"Ishlith Shrine (Always enabled)"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
+1:Enabled
+</DropDownList>
+                  <GroupHeader>1</GroupHeader>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>108</ID>
+                  <Description>"Old Madryn"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
+1:Enabled
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1578</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>135</ID>
+                  <Description>"Dim Hideout"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
+1:Enabled
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>15C8</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>137</ID>
+                  <Description>"Belltower Garden"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
+1:Enabled
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>15F0</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>171</ID>
+                  <Description>"Artemisa's Grave"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
+1:Enabled
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>15A0</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>136</ID>
+                  <Description>"Hell"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
+1:Enabled
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1618</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>138</ID>
+                  <Description>"Distorsion in Time"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
+1:Enabled
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1668</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>92</ID>
+              <Description>"Items"</Description>
+              <Options moDefaultCollapsed="1" moRecursiveSetValue="1" moManualExpandCollapse="1"/>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Clear Inventory
+1:Get All Items
+</DropDownList>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>115</ID>
+                  <Description>"FishKey"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1280</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>27</ID>
+                  <Description>"SpeedRing"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1320</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>52</ID>
+                  <Description>"FairyBottle"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1348</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>83</ID>
+                  <Description>"DreamRing"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1370</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>40</ID>
+                  <Description>"GoldenFlower"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1848</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>61</ID>
+                  <Description>"BombSpell"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1870</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>58</ID>
+                  <Description>"SummonStone"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1898</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>64</ID>
+                  <Description>"KarstianSeed"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1B40</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>66</ID>
+                  <Description>"CeremonialFabric"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1B68</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>68</ID>
+                  <Description>"OwlBadge"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1BB8</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>70</ID>
+                  <Description>"LoveLetter"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1C08</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>177</ID>
+                  <Description>"StarMagnet"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1CA8</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>74</ID>
+                  <Description>"Marine'sSymbol"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1D20</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>76</ID>
+                  <Description>"MoneyBomb"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1D48</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>78</ID>
+                  <Description>"SliceOfShellfruit"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1DE8</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>79</ID>
+                  <Description>"EdeaStatuette"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1E10</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>81</ID>
+                  <Description>"FakeDreamRing"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1E60</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>21</ID>
+              <Description>"LockedMovement"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:False
+1:True
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"momodora3.exe"+189EDC</Address>
+              <Offsets>
+                <Offset>1118</Offset>
+                <Offset>C</Offset>
+                <Offset>4</Offset>
+                <Offset>B4</Offset>
+                <Offset>4</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>94</ID>
+              <Description>"onGround"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:False
+1:True
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"Momodora3.exe"+002C73C4</Address>
+              <Offsets>
+                <Offset>D8</Offset>
+                <Offset>4</Offset>
+                <Offset>104</Offset>
+                <Offset>0</Offset>
+                <Offset>20</Offset>
+                <Offset>78</Offset>
+              </Offsets>
+              <Hotkeys>
+                <Hotkey>
+                  <Action>Set Value</Action>
+                  <Keys>
+                    <Key>73</Key>
+                  </Keys>
+                  <Value>1</Value>
+                  <ID>0</ID>
+                </Hotkey>
+                <Hotkey>
+                  <Action>Set Value</Action>
+                  <Keys>
+                    <Key>79</Key>
+                  </Keys>
+                  <Value>0</Value>
+                  <ID>1</ID>
+                </Hotkey>
+              </Hotkeys>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>235</ID>
+      <Description>"1.11b"</Description>
+      <Options moDefaultCollapsed="1" moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>277</ID>
+          <Description>"GameInfo"</Description>
+          <Options moManualExpandCollapse="1"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>278</ID>
+              <Description>"MainMenu"</Description>
+              <Options moManualExpandCollapse="1"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>231</ID>
+                  <Description>"Difficulty"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Casual
+1:Easy
+2:Hard
+*:Undefined
+</DropDownList>
+                  <VariableType>Double</VariableType>
+                  <Address>"Momodora3.exe"+0018D4CC</Address>
+                  <Offsets>
+                    <Offset>100</Offset>
+                    <Offset>4</Offset>
+                    <Offset>104</Offset>
+                    <Offset>8</Offset>
+                    <Offset>104</Offset>
+                    <Offset>1E4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>279</ID>
+                  <Description>"LoadSavefile"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Preparing Savefile
+1:Loading
+160:Playing
+*:Undefined
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"Momodora3.exe"+0018D4CC</Address>
+                  <Offsets>
+                    <Offset>128</Offset>
+                    <Offset>4</Offset>
+                    <Offset>104</Offset>
+                    <Offset>8</Offset>
+                    <Offset>104</Offset>
+                    <Offset>1E4</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>423</ID>
+              <Description>"Room"</Description>
+              <VariableType>Double</VariableType>
+              <Address>"Momodora3.exe"+0018D3D4</Address>
+              <Offsets>
+                <Offset>8F8</Offset>
+                <Offset>2C</Offset>
+                <Offset>8</Offset>
+                <Offset>8EC</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>281</ID>
+              <Description>"Percentage"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"momodora3.exe"+189EDC</Address>
+              <Offsets>
+                <Offset>1C80</Offset>
+                <Offset>C</Offset>
+                <Offset>4</Offset>
+                <Offset>B4</Offset>
+                <Offset>4</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>282</ID>
+              <Description>"InGame"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"momodora3.exe"+189EDC</Address>
+              <Offsets>
+                <Offset>1E88</Offset>
+                <Offset>C</Offset>
+                <Offset>4</Offset>
+                <Offset>B4</Offset>
+                <Offset>4</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>283</ID>
+              <Description>"InGame2"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"momodora3.exe"+189EDC</Address>
+              <Offsets>
+                <Offset>1F50</Offset>
+                <Offset>C</Offset>
+                <Offset>4</Offset>
+                <Offset>B4</Offset>
+                <Offset>4</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>284</ID>
+              <Description>"IGT"</Description>
+              <Options moManualExpandCollapse="1"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>285</ID>
+                  <Description>"Hours"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>718</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>286</ID>
+                  <Description>"Minutes"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>6F0</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>287</ID>
+                  <Description>"Seconds"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>6C8</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>288</ID>
+                  <Description>"FrameForCurrentSecond"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>740</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>289</ID>
+              <Description>"Bosses"</Description>
+              <Options moManualExpandCollapse="1"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>290</ID>
+                  <Description>"Prim"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>291</ID>
+                      <Description>"Fought"</Description>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"momodora3.exe"+189EDC</Address>
+                      <Offsets>
+                        <Offset>19D8</Offset>
+                        <Offset>C</Offset>
+                        <Offset>4</Offset>
+                        <Offset>B4</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>292</ID>
+                      <Description>"Health"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+002C73C4</Address>
+                      <Offsets>
+                        <Offset>60</Offset>
+                        <Offset>4</Offset>
+                        <Offset>104</Offset>
+                        <Offset>0</Offset>
+                        <Offset>308</Offset>
+                        <Offset>78</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>293</ID>
+                  <Description>"Fishgod Peishe"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>294</ID>
+                      <Description>"Fought"</Description>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"momodora3.exe"+189EDC</Address>
+                      <Offsets>
+                        <Offset>1A00</Offset>
+                        <Offset>C</Offset>
+                        <Offset>4</Offset>
+                        <Offset>B4</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>295</ID>
+                      <Description>"Health"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+002C73C4</Address>
+                      <Offsets>
+                        <Offset>60</Offset>
+                        <Offset>4</Offset>
+                        <Offset>104</Offset>
+                        <Offset>0</Offset>
+                        <Offset>78</Offset>
+                        <Offset>80</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>296</ID>
+                  <Description>"Knight"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>297</ID>
+                      <Description>"Fought"</Description>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"momodora3.exe"+189EDC</Address>
+                      <Offsets>
+                        <Offset>1DC0</Offset>
+                        <Offset>C</Offset>
+                        <Offset>4</Offset>
+                        <Offset>B4</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>298</ID>
+                      <Description>"Health"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+002C73C4</Address>
+                      <Offsets>
+                        <Offset>358</Offset>
+                        <Offset>4</Offset>
+                        <Offset>104</Offset>
+                        <Offset>0</Offset>
+                        <Offset>78</Offset>
+                        <Offset>80</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>299</ID>
+                  <Description>"Arabella Sisters"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>300</ID>
+                      <Description>"Fought"</Description>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"momodora3.exe"+189EDC</Address>
+                      <Offsets>
+                        <Offset>1A50</Offset>
+                        <Offset>C</Offset>
+                        <Offset>4</Offset>
+                        <Offset>B4</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>158</ID>
+                      <Description>"Health"</Description>
+                      <Options moRecursiveSetValue="1" moManualExpandCollapse="1"/>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+002C73C4</Address>
+                      <Offsets>
+                        <Offset>B0</Offset>
+                        <Offset>4</Offset>
+                        <Offset>284</Offset>
+                        <Offset>C</Offset>
+                        <Offset>74</Offset>
+                      </Offsets>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>224</ID>
+                          <Description>"HealthRightSis"</Description>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>Double</VariableType>
+                          <Address>"Momodora3.exe"+002C73C4</Address>
+                          <Offsets>
+                            <Offset>38</Offset>
+                            <Offset>4</Offset>
+                            <Offset>104</Offset>
+                            <Offset>0</Offset>
+                            <Offset>6E0</Offset>
+                            <Offset>78</Offset>
+                          </Offsets>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>225</ID>
+                          <Description>"HealthLeftSis"</Description>
+                          <VariableType>Double</VariableType>
+                          <Address>"Momodora3.exe"+002C73C4</Address>
+                          <Offsets>
+                            <Offset>38</Offset>
+                            <Offset>4</Offset>
+                            <Offset>104</Offset>
+                            <Offset>0</Offset>
+                            <Offset>6E4</Offset>
+                            <Offset>78</Offset>
+                          </Offsets>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>301</ID>
+                  <Description>"Bellkeeper Poetelia"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>302</ID>
+                      <Description>"Fought"</Description>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"momodora3.exe"+189EDC</Address>
+                      <Offsets>
+                        <Offset>1A78</Offset>
+                        <Offset>C</Offset>
+                        <Offset>4</Offset>
+                        <Offset>B4</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>303</ID>
+                      <Description>"Health"</Description>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+002C73C4</Address>
+                      <Offsets>
+                        <Offset>38</Offset>
+                        <Offset>4</Offset>
+                        <Offset>104</Offset>
+                        <Offset>0</Offset>
+                        <Offset>640</Offset>
+                        <Offset>78</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>304</ID>
+                  <Description>"Bakrog Demon"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>305</ID>
+                      <Description>"Fought"</Description>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"momodora3.exe"+189EDC</Address>
+                      <Offsets>
+                        <Offset>1A28</Offset>
+                        <Offset>C</Offset>
+                        <Offset>4</Offset>
+                        <Offset>B4</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>306</ID>
+                      <Description>"Health"</Description>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+002C73C4</Address>
+                      <Offsets>
+                        <Offset>2B8</Offset>
+                        <Offset>4</Offset>
+                        <Offset>104</Offset>
+                        <Offset>0</Offset>
+                        <Offset>5F4</Offset>
+                        <Offset>78</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>307</ID>
+                  <Description>"Haegok"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>308</ID>
+                      <Description>"Fought"</Description>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"momodora3.exe"+189EDC</Address>
+                      <Offsets>
+                        <Offset>1D48</Offset>
+                        <Offset>C</Offset>
+                        <Offset>4</Offset>
+                        <Offset>B4</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>309</ID>
+                      <Description>"Health"</Description>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+002C73C4</Address>
+                      <Offsets>
+                        <Offset>3F8</Offset>
+                        <Offset>4</Offset>
+                        <Offset>104</Offset>
+                        <Offset>0</Offset>
+                        <Offset>860</Offset>
+                        <Offset>78</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>310</ID>
+                  <Description>"Cashias"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>311</ID>
+                      <Description>"Fought"</Description>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"momodora3.exe"+189EDC</Address>
+                      <Offsets>
+                        <Offset>1E10</Offset>
+                        <Offset>C</Offset>
+                        <Offset>4</Offset>
+                        <Offset>B4</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>312</ID>
+                      <Description>"Health"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+001892D0</Address>
+                      <Offsets>
+                        <Offset>330</Offset>
+                        <Offset>4</Offset>
+                        <Offset>284</Offset>
+                        <Offset>B4</Offset>
+                        <Offset>8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>313</ID>
+                  <Description>"Godess of Death"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>314</ID>
+                      <Description>"HealthF1"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+002C73C4</Address>
+                      <Offsets>
+                        <Offset>38</Offset>
+                        <Offset>4</Offset>
+                        <Offset>104</Offset>
+                        <Offset>0</Offset>
+                        <Offset>7D8</Offset>
+                        <Offset>80</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>315</ID>
+                      <Description>"HealthF2"</Description>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+002C73C4</Address>
+                      <Offsets>
+                        <Offset>38</Offset>
+                        <Offset>4</Offset>
+                        <Offset>104</Offset>
+                        <Offset>0</Offset>
+                        <Offset>864</Offset>
+                        <Offset>78</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>316</ID>
+                      <Description>"HealthF3"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+002C73C4</Address>
+                      <Offsets>
+                        <Offset>290</Offset>
+                        <Offset>4</Offset>
+                        <Offset>104</Offset>
+                        <Offset>0</Offset>
+                        <Offset>884</Offset>
+                        <Offset>80</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>317</ID>
+              <Description>"Events"</Description>
+              <Options moManualExpandCollapse="1"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>318</ID>
+                  <Description>"InitialCS"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1208</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>319</ID>
+                  <Description>"PlantedKarstianSeed"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1CA8</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>320</ID>
+                  <Description>"KahoCS"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1D20</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>236</ID>
+          <Description>"PlayerInfo"</Description>
+          <Options moManualExpandCollapse="1"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>248</ID>
+              <Description>"Coord"</Description>
+              <Options moManualExpandCollapse="1"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>249</ID>
+                  <Description>"XPos"</Description>
+                  <VariableType>Double</VariableType>
+                  <Address>"Momodora3.exe"+002C73C4</Address>
+                  <Offsets>
+                    <Offset>50</Offset>
+                    <Offset>0</Offset>
+                    <Offset>20</Offset>
+                    <Offset>80</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>250</ID>
+                  <Description>"YPos"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"Momodora3.exe"+002C73C4</Address>
+                  <Offsets>
+                    <Offset>58</Offset>
+                    <Offset>0</Offset>
+                    <Offset>20</Offset>
+                    <Offset>80</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>243</ID>
+              <Description>"MaxHealth(Increments of 4)"</Description>
+              <Options moRecursiveSetValue="1" moManualExpandCollapse="1"/>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:0
+4:4
+8:8
+12:12
+16:16
+20:20
+24:24
+28:28
+32:32
+36:36
+40:40
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"momodora3.exe"+189EDC</Address>
+              <Offsets>
+                <Offset>448</Offset>
+                <Offset>C</Offset>
+                <Offset>4</Offset>
+                <Offset>B4</Offset>
+                <Offset>4</Offset>
+              </Offsets>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>244</ID>
+                  <Description>"Health"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>420</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                  <Hotkeys>
+                    <Hotkey>
+                      <Action>Set Value</Action>
+                      <Keys>
+                        <Key>111</Key>
+                      </Keys>
+                      <Value>0</Value>
+                      <ID>0</ID>
+                    </Hotkey>
+                    <Hotkey>
+                      <Action>Deactivate</Action>
+                      <Keys>
+                        <Key>111</Key>
+                      </Keys>
+                      <ID>1</ID>
+                    </Hotkey>
+                    <Hotkey>
+                      <Action>Decrease Value</Action>
+                      <Keys>
+                        <Key>75</Key>
+                      </Keys>
+                      <Value>4</Value>
+                      <ID>2</ID>
+                    </Hotkey>
+                    <Hotkey>
+                      <Action>Increase Value</Action>
+                      <Keys>
+                        <Key>76</Key>
+                      </Keys>
+                      <Value>4</Value>
+                      <ID>3</ID>
+                    </Hotkey>
+                  </Hotkeys>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>245</ID>
+              <Description>"Munny"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"momodora3.exe"+189EDC</Address>
+              <Offsets>
+                <Offset>8A8</Offset>
+                <Offset>C</Offset>
+                <Offset>4</Offset>
+                <Offset>B4</Offset>
+                <Offset>4</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>237</ID>
+              <Description>"Character(RequiresReloadingOrWarping)"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Momo
+1:Dora
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"momodora3.exe"+189EDC</Address>
+              <Offsets>
+                <Offset>12A8</Offset>
+                <Offset>C</Offset>
+                <Offset>4</Offset>
+                <Offset>B4</Offset>
+                <Offset>4</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>239</ID>
+              <Description>"Invincibility"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
+1:Enabled
+</DropDownList>
+              <VariableType>Double</VariableType>
+              <Address>"Momodora3.exe"+002C73C4</Address>
+              <Offsets>
+                <Offset>2E0</Offset>
+                <Offset>4</Offset>
+                <Offset>104</Offset>
+                <Offset>0</Offset>
+                <Offset>20</Offset>
+                <Offset>78</Offset>
+              </Offsets>
+              <Hotkeys>
+                <Hotkey>
+                  <Action>Set Value</Action>
+                  <Keys>
+                    <Key>73</Key>
+                  </Keys>
+                  <Value>1</Value>
+                  <ID>0</ID>
+                </Hotkey>
+                <Hotkey>
+                  <Action>Activate</Action>
+                  <Keys>
+                    <Key>73</Key>
+                  </Keys>
+                  <ID>2</ID>
+                </Hotkey>
+                <Hotkey>
+                  <Action>Set Value</Action>
+                  <Keys>
+                    <Key>79</Key>
+                  </Keys>
+                  <Value>0</Value>
+                  <ID>1</ID>
+                </Hotkey>
+                <Hotkey>
+                  <Action>Deactivate</Action>
+                  <Keys>
+                    <Key>79</Key>
+                  </Keys>
+                  <ID>3</ID>
+                </Hotkey>
+              </Hotkeys>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>240</ID>
+              <Description>"Charged attack (20-100: MidCharge) (100+: Full charge)"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Charged
+50:Mid Charge
+101:Fully Charged
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"Momodora3.exe"+002C73C4</Address>
+              <Offsets>
+                <Offset>3A8</Offset>
+                <Offset>4</Offset>
+                <Offset>104</Offset>
+                <Offset>0</Offset>
+                <Offset>20</Offset>
+                <Offset>78</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>241</ID>
+              <Description>"BunnyForm"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
+1:Enabled
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"Momodora3.exe"+002C73C4</Address>
+              <Offsets>
+                <Offset>650</Offset>
+                <Offset>4</Offset>
+                <Offset>104</Offset>
+                <Offset>0</Offset>
+                <Offset>20</Offset>
+                <Offset>78</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>242</ID>
+              <Description>"EnemiesKilled"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"momodora3.exe"+189EDC</Address>
+              <Offsets>
+                <Offset>1848</Offset>
+                <Offset>C</Offset>
+                <Offset>4</Offset>
+                <Offset>B4</Offset>
+                <Offset>4</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>238</ID>
+              <Description>"WarpAbility"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
+1:Enabled
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"momodora3.exe"+189EDC</Address>
+              <Offsets>
+                <Offset>1690</Offset>
+                <Offset>C</Offset>
+                <Offset>4</Offset>
+                <Offset>B4</Offset>
+                <Offset>4</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>269</ID>
+              <Description>"Warps"</Description>
+              <Options moRecursiveSetValue="1" moManualExpandCollapse="1"/>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disable All
+1:Enable All
+</DropDownList>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>270</ID>
+                  <Description>"Isilith Shrine (Always enabled)"</Description>
+                  <GroupHeader>1</GroupHeader>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>271</ID>
+                  <Description>"Old Madryn"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
+1:Enabled
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>15C8</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>272</ID>
+                  <Description>"Dim Hideout"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
+1:Enabled
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1618</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>273</ID>
+                  <Description>"Belltower Garden"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
+1:Enabled
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1640</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>274</ID>
+                  <Description>"Artemisa's Grave"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
+1:Enabled
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>15F0</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>275</ID>
+                  <Description>"Hell"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
+1:Enabled
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1668</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>276</ID>
+                  <Description>"Distorsion in Time"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
+1:Enabled
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>16B8</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>251</ID>
+              <Description>"Items"</Description>
+              <Options moRecursiveSetValue="1" moManualExpandCollapse="1"/>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Clear Inventory
+1:Get All Items
+</DropDownList>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>252</ID>
+                  <Description>"FishKey"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>12D0</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>253</ID>
+                  <Description>"SpeedRing"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1370</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>254</ID>
+                  <Description>"FairyBottle1"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1398</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>255</ID>
+                  <Description>"DreamRing"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>13C0</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>256</ID>
+                  <Description>"GoldenFlower"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1898</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>257</ID>
+                  <Description>"BombSpell"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>18C0</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>258</ID>
+                  <Description>"SummonStone"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>18E8</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>259</ID>
+                  <Description>"KarstianSeed"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1B90</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>260</ID>
+                  <Description>"CeremonialFabric"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1BB8</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>261</ID>
+                  <Description>"OwlBadge"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1C08</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>262</ID>
+                  <Description>"LoveLetter"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1C58</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>263</ID>
+                  <Description>"StarMagnet"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1CF8</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>264</ID>
+                  <Description>"Marine'sSymbol"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1D70</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>265</ID>
+                  <Description>"MoneyBomb"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1D98</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>266</ID>
+                  <Description>"SliceOfShellfruit"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1E38</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>267</ID>
+                  <Description>"EdeaStatuette"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1E60</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>268</ID>
+                  <Description>"NotImplementedRing"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1EB0</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>246</ID>
+              <Description>"LockedMovement"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:False
+1:True
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"momodora3.exe"+189EDC</Address>
+              <Offsets>
+                <Offset>1168</Offset>
+                <Offset>C</Offset>
+                <Offset>4</Offset>
+                <Offset>B4</Offset>
+                <Offset>4</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>247</ID>
+              <Description>"onGround"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:False
+1:True
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"Momodora3.exe"+002C73C4</Address>
+              <Offsets>
+                <Offset>D8</Offset>
+                <Offset>4</Offset>
+                <Offset>104</Offset>
+                <Offset>0</Offset>
+                <Offset>20</Offset>
+                <Offset>78</Offset>
+              </Offsets>
+              <Hotkeys>
+                <Hotkey>
+                  <Action>Set Value</Action>
+                  <Keys>
+                    <Key>73</Key>
+                  </Keys>
+                  <Value>1</Value>
+                  <ID>0</ID>
+                </Hotkey>
+                <Hotkey>
+                  <Action>Set Value</Action>
+                  <Keys>
+                    <Key>79</Key>
+                  </Keys>
+                  <Value>0</Value>
+                  <ID>1</ID>
+                </Hotkey>
+              </Hotkeys>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>321</ID>
+      <Description>"1.12"</Description>
+      <Options moDefaultCollapsed="1" moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>322</ID>
+          <Description>"GameInfo"</Description>
+          <Options moManualExpandCollapse="1"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>323</ID>
+              <Description>"MainMenu"</Description>
+              <Options moManualExpandCollapse="1"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>324</ID>
+                  <Description>"Character"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Momo
+1:Dora
+*:Undefined
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"Momodora3.exe"+0018D4CC</Address>
+                  <Offsets>
+                    <Offset>B0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>104</Offset>
+                    <Offset>8</Offset>
+                    <Offset>104</Offset>
+                    <Offset>1E4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>325</ID>
+                  <Description>"LoadSavefile"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Preparing Savefile
+1:Loading
+160:Playing
+*:Undefined
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"Momodora3.exe"+0018D4CC</Address>
+                  <Offsets>
+                    <Offset>E0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>104</Offset>
+                    <Offset>8</Offset>
+                    <Offset>104</Offset>
+                    <Offset>1E4</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>422</ID>
+              <Description>"Room"</Description>
+              <VariableType>Double</VariableType>
+              <Address>"Momodora3.exe"+0018D3D4</Address>
+              <Offsets>
+                <Offset>8F8</Offset>
+                <Offset>2C</Offset>
+                <Offset>8</Offset>
+                <Offset>8EC</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>327</ID>
+              <Description>"Percentage"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"momodora3.exe"+189EDC</Address>
+              <Offsets>
+                <Offset>1C80</Offset>
+                <Offset>C</Offset>
+                <Offset>4</Offset>
+                <Offset>B4</Offset>
+                <Offset>4</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>328</ID>
+              <Description>"InGame"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"momodora3.exe"+189EDC</Address>
+              <Offsets>
+                <Offset>1E38</Offset>
+                <Offset>C</Offset>
+                <Offset>4</Offset>
+                <Offset>B4</Offset>
+                <Offset>4</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>329</ID>
+              <Description>"InGame2"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"momodora3.exe"+189EDC</Address>
+              <Offsets>
+                <Offset>1F50</Offset>
+                <Offset>C</Offset>
+                <Offset>4</Offset>
+                <Offset>B4</Offset>
+                <Offset>4</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>330</ID>
+              <Description>"IGT"</Description>
+              <Options moManualExpandCollapse="1"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>331</ID>
+                  <Description>"Hours"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>718</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>332</ID>
+                  <Description>"Minutes"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>6F0</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>333</ID>
+                  <Description>"Seconds"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>6C8</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>334</ID>
+                  <Description>"FrameForCurrentSecond"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>740</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>335</ID>
+              <Description>"Bosses"</Description>
+              <Options moManualExpandCollapse="1"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>336</ID>
+                  <Description>"Prim"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>337</ID>
+                      <Description>"Fought"</Description>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"momodora3.exe"+189EDC</Address>
+                      <Offsets>
+                        <Offset>19D8</Offset>
+                        <Offset>C</Offset>
+                        <Offset>4</Offset>
+                        <Offset>B4</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>338</ID>
+                      <Description>"Health"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+002C73C4</Address>
+                      <Offsets>
+                        <Offset>60</Offset>
+                        <Offset>4</Offset>
+                        <Offset>104</Offset>
+                        <Offset>0</Offset>
+                        <Offset>308</Offset>
+                        <Offset>78</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>339</ID>
+                  <Description>"Fishgod Peishe"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>340</ID>
+                      <Description>"Fought"</Description>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"momodora3.exe"+189EDC</Address>
+                      <Offsets>
+                        <Offset>1A00</Offset>
+                        <Offset>C</Offset>
+                        <Offset>4</Offset>
+                        <Offset>B4</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>341</ID>
+                      <Description>"Health"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+002C73C4</Address>
+                      <Offsets>
+                        <Offset>60</Offset>
+                        <Offset>4</Offset>
+                        <Offset>104</Offset>
+                        <Offset>0</Offset>
+                        <Offset>78</Offset>
+                        <Offset>80</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>342</ID>
+                  <Description>"Knight"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>343</ID>
+                      <Description>"Fought"</Description>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"momodora3.exe"+189EDC</Address>
+                      <Offsets>
+                        <Offset>1DC0</Offset>
+                        <Offset>C</Offset>
+                        <Offset>4</Offset>
+                        <Offset>B4</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>344</ID>
+                      <Description>"Health"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+002C73C4</Address>
+                      <Offsets>
+                        <Offset>358</Offset>
+                        <Offset>4</Offset>
+                        <Offset>104</Offset>
+                        <Offset>0</Offset>
+                        <Offset>78</Offset>
+                        <Offset>80</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>345</ID>
+                  <Description>"Arabella Sisters"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>346</ID>
+                      <Description>"Fought"</Description>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"momodora3.exe"+189EDC</Address>
+                      <Offsets>
+                        <Offset>1A50</Offset>
+                        <Offset>C</Offset>
+                        <Offset>4</Offset>
+                        <Offset>B4</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>347</ID>
+                      <Description>"Health"</Description>
+                      <Options moRecursiveSetValue="1" moManualExpandCollapse="1"/>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+002C73C4</Address>
+                      <Offsets>
+                        <Offset>B0</Offset>
+                        <Offset>4</Offset>
+                        <Offset>284</Offset>
+                        <Offset>C</Offset>
+                        <Offset>74</Offset>
+                      </Offsets>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>348</ID>
+                          <Description>"HealthRightSis"</Description>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>Double</VariableType>
+                          <Address>"Momodora3.exe"+002C73C4</Address>
+                          <Offsets>
+                            <Offset>38</Offset>
+                            <Offset>4</Offset>
+                            <Offset>104</Offset>
+                            <Offset>0</Offset>
+                            <Offset>6E0</Offset>
+                            <Offset>78</Offset>
+                          </Offsets>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>349</ID>
+                          <Description>"HealthLeftSis"</Description>
+                          <VariableType>Double</VariableType>
+                          <Address>"Momodora3.exe"+002C73C4</Address>
+                          <Offsets>
+                            <Offset>38</Offset>
+                            <Offset>4</Offset>
+                            <Offset>104</Offset>
+                            <Offset>0</Offset>
+                            <Offset>6E4</Offset>
+                            <Offset>78</Offset>
+                          </Offsets>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>350</ID>
+                  <Description>"Bellkeeper Poetelia"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>351</ID>
+                      <Description>"Fought"</Description>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"momodora3.exe"+189EDC</Address>
+                      <Offsets>
+                        <Offset>1A78</Offset>
+                        <Offset>C</Offset>
+                        <Offset>4</Offset>
+                        <Offset>B4</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>352</ID>
+                      <Description>"Health"</Description>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+002C73C4</Address>
+                      <Offsets>
+                        <Offset>38</Offset>
+                        <Offset>4</Offset>
+                        <Offset>104</Offset>
+                        <Offset>0</Offset>
+                        <Offset>640</Offset>
+                        <Offset>78</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>353</ID>
+                  <Description>"Bakrog Demon"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>354</ID>
+                      <Description>"Fought"</Description>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"momodora3.exe"+189EDC</Address>
+                      <Offsets>
+                        <Offset>1A28</Offset>
+                        <Offset>C</Offset>
+                        <Offset>4</Offset>
+                        <Offset>B4</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>355</ID>
+                      <Description>"Health"</Description>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+002C73C4</Address>
+                      <Offsets>
+                        <Offset>2B8</Offset>
+                        <Offset>4</Offset>
+                        <Offset>104</Offset>
+                        <Offset>0</Offset>
+                        <Offset>5F4</Offset>
+                        <Offset>78</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>356</ID>
+                  <Description>"Haegok"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>357</ID>
+                      <Description>"Fought"</Description>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"momodora3.exe"+189EDC</Address>
+                      <Offsets>
+                        <Offset>1D48</Offset>
+                        <Offset>C</Offset>
+                        <Offset>4</Offset>
+                        <Offset>B4</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>358</ID>
+                      <Description>"Health"</Description>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+002C73C4</Address>
+                      <Offsets>
+                        <Offset>3F8</Offset>
+                        <Offset>4</Offset>
+                        <Offset>104</Offset>
+                        <Offset>0</Offset>
+                        <Offset>860</Offset>
+                        <Offset>78</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>359</ID>
+                  <Description>"Cashias"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>360</ID>
+                      <Description>"Fought"</Description>
+                      <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"momodora3.exe"+189EDC</Address>
+                      <Offsets>
+                        <Offset>1E10</Offset>
+                        <Offset>C</Offset>
+                        <Offset>4</Offset>
+                        <Offset>B4</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>361</ID>
+                      <Description>"Health"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+001892D0</Address>
+                      <Offsets>
+                        <Offset>330</Offset>
+                        <Offset>4</Offset>
+                        <Offset>284</Offset>
+                        <Offset>B4</Offset>
+                        <Offset>8</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>362</ID>
+                  <Description>"Godess of Death"</Description>
+                  <Options moManualExpandCollapse="1"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>363</ID>
+                      <Description>"HealthF1"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+002C73C4</Address>
+                      <Offsets>
+                        <Offset>38</Offset>
+                        <Offset>4</Offset>
+                        <Offset>104</Offset>
+                        <Offset>0</Offset>
+                        <Offset>7D8</Offset>
+                        <Offset>80</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>364</ID>
+                      <Description>"HealthF2"</Description>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+002C73C4</Address>
+                      <Offsets>
+                        <Offset>38</Offset>
+                        <Offset>4</Offset>
+                        <Offset>104</Offset>
+                        <Offset>0</Offset>
+                        <Offset>864</Offset>
+                        <Offset>78</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>365</ID>
+                      <Description>"HealthF3"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>Double</VariableType>
+                      <Address>"Momodora3.exe"+002C73C4</Address>
+                      <Offsets>
+                        <Offset>290</Offset>
+                        <Offset>4</Offset>
+                        <Offset>104</Offset>
+                        <Offset>0</Offset>
+                        <Offset>884</Offset>
+                        <Offset>80</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>366</ID>
+              <Description>"Events"</Description>
+              <Options moManualExpandCollapse="1"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>367</ID>
+                  <Description>"InitialCS"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1208</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>368</ID>
+                  <Description>"PlantedKarstianSeed"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1CA8</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>369</ID>
+                  <Description>"KahoCS"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
+1:Yes
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1D20</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>370</ID>
+          <Description>"PlayerInfo"</Description>
+          <Options moManualExpandCollapse="1"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>371</ID>
+              <Description>"Coord"</Description>
+              <Options moManualExpandCollapse="1"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>372</ID>
+                  <Description>"XPos"</Description>
+                  <VariableType>Double</VariableType>
+                  <Address>"Momodora3.exe"+002C73C4</Address>
+                  <Offsets>
+                    <Offset>50</Offset>
+                    <Offset>0</Offset>
+                    <Offset>20</Offset>
+                    <Offset>80</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>373</ID>
+                  <Description>"YPos"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"Momodora3.exe"+002C73C4</Address>
+                  <Offsets>
+                    <Offset>58</Offset>
+                    <Offset>0</Offset>
+                    <Offset>20</Offset>
+                    <Offset>80</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>416</ID>
+              <Description>"Camera"</Description>
+              <Options moDefaultCollapsed="1" moManualExpandCollapse="1"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>418</ID>
+                  <Description>"Follow?"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>"Momodora3.exe"+002C73C4</Address>
+                  <Offsets>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>415</ID>
+                  <Description>"X"</Description>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>"Momodora3.exe"+002C73C4</Address>
+                  <Offsets>
+                    <Offset>8</Offset>
+                    <Offset>44</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>417</ID>
+                  <Description>"Y"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>"Momodora3.exe"+002C73C4</Address>
+                  <Offsets>
+                    <Offset>C</Offset>
+                    <Offset>44</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>374</ID>
+              <Description>"MaxHealth(Increments of 4)"</Description>
+              <Options moRecursiveSetValue="1" moManualExpandCollapse="1"/>
+              <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:0
+4:4
+8:8
+12:12
+16:16
+20:20
+24:24
+28:28
+32:32
+36:36
+40:40
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"momodora3.exe"+189EDC</Address>
+              <Offsets>
+                <Offset>448</Offset>
+                <Offset>C</Offset>
+                <Offset>4</Offset>
+                <Offset>B4</Offset>
+                <Offset>4</Offset>
+              </Offsets>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>375</ID>
+                  <Description>"Health"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>420</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                  <Hotkeys>
+                    <Hotkey>
+                      <Action>Set Value</Action>
+                      <Keys>
+                        <Key>111</Key>
+                      </Keys>
+                      <Value>0</Value>
+                      <ID>0</ID>
+                    </Hotkey>
+                    <Hotkey>
+                      <Action>Deactivate</Action>
+                      <Keys>
+                        <Key>111</Key>
+                      </Keys>
+                      <ID>1</ID>
+                    </Hotkey>
+                    <Hotkey>
+                      <Action>Decrease Value</Action>
+                      <Keys>
+                        <Key>75</Key>
+                      </Keys>
+                      <Value>4</Value>
+                      <ID>2</ID>
+                    </Hotkey>
+                    <Hotkey>
+                      <Action>Increase Value</Action>
+                      <Keys>
+                        <Key>76</Key>
+                      </Keys>
+                      <Value>4</Value>
+                      <ID>3</ID>
+                    </Hotkey>
+                  </Hotkeys>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>376</ID>
+              <Description>"Munny"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"momodora3.exe"+189EDC</Address>
+              <Offsets>
+                <Offset>8A8</Offset>
+                <Offset>C</Offset>
+                <Offset>4</Offset>
+                <Offset>B4</Offset>
+                <Offset>4</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>377</ID>
+              <Description>"Character(RequiresReloadingOrWarping)?"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Momo
+1:Dora
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"momodora3.exe"+189EDC</Address>
+              <Offsets>
+                <Offset>12A8</Offset>
+                <Offset>C</Offset>
+                <Offset>4</Offset>
+                <Offset>B4</Offset>
+                <Offset>4</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>378</ID>
+              <Description>"Invincibility"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
+1:Enabled
+</DropDownList>
+              <VariableType>Double</VariableType>
+              <Address>"Momodora3.exe"+002C73C4</Address>
+              <Offsets>
+                <Offset>2E0</Offset>
+                <Offset>4</Offset>
+                <Offset>104</Offset>
+                <Offset>0</Offset>
+                <Offset>20</Offset>
+                <Offset>78</Offset>
+              </Offsets>
+              <Hotkeys>
+                <Hotkey>
+                  <Action>Set Value</Action>
+                  <Keys>
+                    <Key>73</Key>
+                  </Keys>
+                  <Value>1</Value>
+                  <ID>0</ID>
+                </Hotkey>
+                <Hotkey>
+                  <Action>Activate</Action>
+                  <Keys>
+                    <Key>73</Key>
+                  </Keys>
+                  <ID>2</ID>
+                </Hotkey>
+                <Hotkey>
+                  <Action>Set Value</Action>
+                  <Keys>
+                    <Key>79</Key>
+                  </Keys>
+                  <Value>0</Value>
+                  <ID>1</ID>
+                </Hotkey>
+                <Hotkey>
+                  <Action>Deactivate</Action>
+                  <Keys>
+                    <Key>79</Key>
+                  </Keys>
+                  <ID>3</ID>
+                </Hotkey>
+              </Hotkeys>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>379</ID>
+              <Description>"Charged attack (20-100: Mid) (100+: Full)"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Charged
+50:Mid Charge
+101:Fully Charged
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"Momodora3.exe"+002C73C4</Address>
+              <Offsets>
+                <Offset>3A8</Offset>
+                <Offset>4</Offset>
+                <Offset>104</Offset>
+                <Offset>0</Offset>
+                <Offset>20</Offset>
+                <Offset>78</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>380</ID>
+              <Description>"BunnyForm"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
+1:Enabled
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"Momodora3.exe"+002C73C4</Address>
+              <Offsets>
+                <Offset>650</Offset>
+                <Offset>4</Offset>
+                <Offset>104</Offset>
+                <Offset>0</Offset>
+                <Offset>20</Offset>
+                <Offset>78</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>381</ID>
+              <Description>"EnemiesKilled"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"momodora3.exe"+189EDC</Address>
+              <Offsets>
+                <Offset>1848</Offset>
+                <Offset>C</Offset>
+                <Offset>4</Offset>
+                <Offset>B4</Offset>
+                <Offset>4</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>382</ID>
+              <Description>"WarpAbility"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
+1:Enabled
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"momodora3.exe"+189EDC</Address>
+              <Offsets>
+                <Offset>1690</Offset>
+                <Offset>C</Offset>
+                <Offset>4</Offset>
+                <Offset>B4</Offset>
+                <Offset>4</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>383</ID>
+              <Description>"Warps"</Description>
+              <Options moRecursiveSetValue="1" moManualExpandCollapse="1"/>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disable All
+1:Enable All
+</DropDownList>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>384</ID>
+                  <Description>"Isilith Shrine (Always enabled)"</Description>
+                  <GroupHeader>1</GroupHeader>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>385</ID>
+                  <Description>"Old Madryn"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
+1:Enabled
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>15C8</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>386</ID>
+                  <Description>"Dim Hideout"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
+1:Enabled
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1618</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>387</ID>
+                  <Description>"Belltower Garden"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
+1:Enabled
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1640</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>388</ID>
+                  <Description>"Artemisa's Grave"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
+1:Enabled
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>15F0</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>389</ID>
+                  <Description>"Hell"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
+1:Enabled
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1668</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>390</ID>
+                  <Description>"Distorsion in Time"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
+1:Enabled
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>16B8</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>391</ID>
+              <Description>"Items"</Description>
+              <Options moRecursiveSetValue="1" moManualExpandCollapse="1"/>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Clear Inventory
+1:Get All Items
+</DropDownList>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>392</ID>
+                  <Description>"FishKey"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>12D0</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>393</ID>
+                  <Description>"SpeedRing"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1370</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>394</ID>
+                  <Description>"FairyBottle1"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1398</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>395</ID>
+                  <Description>"DreamRing"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>13C0</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>396</ID>
+                  <Description>"GoldenFlower"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1898</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>397</ID>
+                  <Description>"BombSpell"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>18C0</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>398</ID>
+                  <Description>"SummonStone"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>18E8</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>399</ID>
+                  <Description>"KarstianSeed"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1B90</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>400</ID>
+                  <Description>"CeremonialFabric"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1BB8</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>401</ID>
+                  <Description>"OwlBadge"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1C08</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>402</ID>
+                  <Description>"LoveLetter"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1C58</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>403</ID>
+                  <Description>"StarMagnet"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1CF8</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>404</ID>
+                  <Description>"Marine'sSymbol"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1D70</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>405</ID>
+                  <Description>"MoneyBomb"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1D98</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>406</ID>
+                  <Description>"SliceOfShellfruit"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1E38</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>407</ID>
+                  <Description>"EdeaStatuette"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1E60</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>408</ID>
+                  <Description>"NotImplementedRing"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Not Obtained
+1:Obtained
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>Double</VariableType>
+                  <Address>"momodora3.exe"+189EDC</Address>
+                  <Offsets>
+                    <Offset>1EB0</Offset>
+                    <Offset>C</Offset>
+                    <Offset>4</Offset>
+                    <Offset>B4</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>409</ID>
+              <Description>"LockedMovement"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:False
+1:True
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"momodora3.exe"+189EDC</Address>
+              <Offsets>
+                <Offset>1168</Offset>
+                <Offset>C</Offset>
+                <Offset>4</Offset>
+                <Offset>B4</Offset>
+                <Offset>4</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>410</ID>
+              <Description>"onGround"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:False
+1:True
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Double</VariableType>
+              <Address>"Momodora3.exe"+002C73C4</Address>
+              <Offsets>
+                <Offset>D8</Offset>
+                <Offset>4</Offset>
+                <Offset>104</Offset>
+                <Offset>0</Offset>
+                <Offset>20</Offset>
+                <Offset>78</Offset>
+              </Offsets>
+              <Hotkeys>
+                <Hotkey>
+                  <Action>Set Value</Action>
+                  <Keys>
+                    <Key>73</Key>
+                  </Keys>
+                  <Value>1</Value>
+                  <ID>0</ID>
+                </Hotkey>
+                <Hotkey>
+                  <Action>Set Value</Action>
+                  <Keys>
+                    <Key>79</Key>
+                  </Keys>
+                  <Value>0</Value>
+                  <ID>1</ID>
+                </Hotkey>
+              </Hotkeys>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <CheatCodes>
+    <CodeEntry>
+      <Description>Change of fild qword ptr [ecx+eax]</Description>
+      <AddressString>Momodora3.exe+1603</AddressString>
+      <Before>
+        <Byte>CA</Byte>
+        <Byte>F7</Byte>
+        <Byte>D9</Byte>
+        <Byte>79</Byte>
+        <Byte>13</Byte>
+      </Before>
+      <Actual>
+        <Byte>DF</Byte>
+        <Byte>2C</Byte>
+        <Byte>01</Byte>
+      </Actual>
+      <After>
+        <Byte>DF</Byte>
+        <Byte>6C</Byte>
+        <Byte>01</Byte>
+        <Byte>08</Byte>
+        <Byte>DF</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Code :fistp qword ptr [ecx+edx]</Description>
+      <AddressString>Momodora3.exe+30DA</AddressString>
+      <Before>
+        <Byte>DF</Byte>
+        <Byte>7A</Byte>
+        <Byte>08</Byte>
+        <Byte>DF</Byte>
+        <Byte>3A</Byte>
+      </Before>
+      <Actual>
+        <Byte>DF</Byte>
+        <Byte>3C</Byte>
+        <Byte>11</Byte>
+      </Actual>
+      <After>
+        <Byte>C3</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>DD</Byte>
+        <Byte>30</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Code :mov [edx],eax</Description>
+      <AddressString>Momodora3.exe+1217A9</AddressString>
+      <Before>
+        <Byte>F0</Byte>
+        <Byte>1C</Byte>
+        <Byte>EE</Byte>
+        <Byte>FF</Byte>
+        <Byte>5A</Byte>
+      </Before>
+      <Actual>
+        <Byte>89</Byte>
+        <Byte>02</Byte>
+      </Actual>
+      <After>
+        <Byte>B3</Byte>
+        <Byte>01</Byte>
+        <Byte>33</Byte>
+        <Byte>C0</Byte>
+        <Byte>5A</Byte>
+      </After>
+    </CodeEntry>
+  </CheatCodes>
+  <UserdefinedSymbols/>
+</CheatTable>
